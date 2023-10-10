@@ -2,6 +2,8 @@
 
 require __DIR__.'/bootstrap.php';
 
+require __DIR__.'/vendor/autoload.php';
+
 // connect to dabase
 try {
     $dsn = 'mysql:host='.DB_HOST.';port='.DB_PORT.';dbname='.DB_DATABASE.';charset='.DB_CHARSET;
